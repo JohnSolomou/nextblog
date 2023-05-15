@@ -4,24 +4,8 @@
 
 @import "tailwindcss/utilities";
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
-* {
-  box-sizing: border-box;
-}
-
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */
 html,
 body {
   padding: 0;
@@ -33,8 +17,8 @@ body {
     width: 100%;
     height: 100vh;
     //background: linear-gradient(to right bottom, #6d327c, #485DA6, #00a1ba, #01b18e, #32b37b);
-    /* background: #D3D3D3; 
-    background-image: url("../public/bg.jpg");*/
+    // background: #D3D3D3;
+    background-image: url("../public/bg.jpg");
     position: fixed;
     left: 0;
     top: 0;
@@ -44,6 +28,15 @@ body {
     background-size: cover;
   }
 }
+// @media (prefers-color-scheme: dark) {
+//   html {
+//     color-scheme: dark;
+//   }
+//   body {
+//     color: white;
+//     background: black;
+//   }
+// }
 
 .text-shadow {
   text-shadow: 0px 2px 0px rgb(0 0 0 / 30%);
