@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import Layout from "./components/Layout";
+import React from "react";
+import Layout from "../components/Layout";
 // import "../styles/globals.css";
 import "../styles/globals.scss";
 
